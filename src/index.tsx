@@ -5,8 +5,7 @@ type PickImagesProps = {
   style: ViewStyle;
 };
 
-export const PickImagesViewManager = requireNativeComponent<PickImagesProps>(
-'PickImagesView'
-);
+export const PickImagesViewManager =
+  requireNativeComponent<PickImagesProps>('PickImagesView');
 
 export default PickImagesViewManager;
